@@ -27,14 +27,14 @@ node {
                stage('PMD') {
                     bat 'mvn pmd:check'
                 }
-      /* stage('mail'){
+       stage('mail'){
 
          mail body: 'project build successful',
-                     from: 'devopstrainingblr@gmail.com',
-                     replyTo: 'mithunreddytechnologies@gmail.com',
+                     from: 'sowjanyag873@gmail.com',
+                     replyTo: 'sowjanyag873@gmail.com',
                      subject: 'project build successful',
-                     to: 'mithunreddytechnologies@gmail.com'
-       }*/
+                     to: 'sowjanyag873@gmail.com'
+       }
 	    
 	    
 
